@@ -11,7 +11,7 @@ function busca(){
   //busqueda de la Ñ
   for(let i = 0;i < letras.length;i++){
     for(let j = 0;j < letras[i].length;j++){
-      if(letras[i][j].toUpperCase()==("O")){
+      if(letras[i][j].toUpperCase()==("Ñ")){
         document.write("aqui esta: palabra-"+(i+1)+" posicion-"+(j+1));
       }
     }
